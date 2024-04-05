@@ -22,4 +22,19 @@ def  plotting():
     plt.show()                                         # Show the graphic window                      
 
 plotting()                                              # Calling the function  
-git 
+
+
+def Nationality():
+    Country = input("What country are you from? ").capitalize()
+    if Country == 'Canada':
+        print ('I am a Canadian')
+    elif Country == 'Germany':
+        print ('Ich bin Deutscher')
+    elif Country == 'France' :
+        print ('Je suis Francaise')
+    elif Country == 'Spain':
+        print ('soy Espanol')  
+    else:
+        print ('Ciao')
+        
+Nationality()
